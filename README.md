@@ -11,3 +11,4 @@ _The following content is made available under Open Software License ("OSL") v 3
 
  - 2020-05-01 - Created the plan for the public dissemination of results that do not infrige any copyright regulation of the XCS229ii workshop
  - 2020-10-20 - Published (Open Source v3 license) the initial commit of the repo
+ - 2020-10-20 - Added "gated.py" - the simple gated unit is the first primitive that we will use in our final project that develops and applies in real use-cases our own state-of-the-art research called "Multi Gated Unit"

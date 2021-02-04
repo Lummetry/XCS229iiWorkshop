@@ -1,0 +1,374 @@
+@book{Aho:72,
+    author  = {Alfred V. Aho and Jeffrey D. Ullman},
+    title   = {The Theory of Parsing, Translation and Compiling},
+    year    = "1972",
+    volume  = "1",
+    publisher = {Prentice-Hall},
+    address = {Englewood Cliffs, NJ}
+}
+
+@book{APA:83,
+    author  = {{American Psychological Association}},
+    title   = {Publications Manual},
+    year    = "1983",
+   publisher = {American Psychological Association},
+   address = {Washington, DC}
+}
+
+@article{Chandra:81,
+	author = {Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer},
+	year = "1981",
+	title = {Alternation},
+	journal = {Journal of the Association for Computing Machinery},
+	volume = "28",
+	number = "1",
+	pages = "114--133",
+	doi = "10.1145/322234.322243",
+}
+
+@inproceedings{andrew2007scalable,
+  title={Scalable training of {L1}-regularized log-linear models},
+  author={Andrew, Galen and Gao, Jianfeng},
+  booktitle={Proceedings of the 24th International Conference on Machine Learning},
+  pages={33--40},
+  year={2007},
+}
+
+@book{Gusfield:97,
+    author  = {Dan Gusfield},
+    title   = {Algorithms on Strings, Trees and Sequences},
+    year    = "1997",
+    publisher = {Cambridge University Press},
+    address = {Cambridge, UK}
+}
+
+@article{rasooli-tetrault-2015,
+    author    = {Mohammad Sadegh Rasooli and Joel R. Tetreault},
+    title     = {Yara Parser: {A} Fast and Accurate Dependency Parser},
+    journal   = {Computing Research Repository},
+    volume    = {arXiv:1503.06733},
+    year      = {2015},
+    url       = {http://arxiv.org/abs/1503.06733},
+    note    = {version 2}
+}
+
+@article{Ando2005,
+	Acmid = {1194905},
+	Author = {Ando, Rie Kubota and Zhang, Tong},
+	Issn = {1532-4435},
+	Issue_Date = {12/1/2005},
+	Journal = {Journal of Machine Learning Research},
+	Month = dec,
+	Numpages = {37},
+	Pages = {1817--1853},
+	Publisher = {JMLR.org},
+	Title = {A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data},
+	Volume = {6},
+	Year = {2005}}
+
+@misc{srivastava2015highway,
+      title={Highway Networks}, 
+      author={Rupesh Kumar Srivastava and Klaus Greff and Jürgen Schmidhuber},
+      year={2015},
+      eprint={1505.00387},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      note    = {arXiv:1505.00387}
+}
+
+@inproceedings{Zoph2017,
+abstract = {Neural networks are powerful and flexible models that work well for many difficult learning tasks in image, speech and natural language understanding. Despite their success, neural networks are still hard to design. In this paper, we use a recurrent network to generate the model descriptions of neural networks and train this RNN with reinforcement learning to maximize the expected accuracy of the generated architectures on a validation set. On the CIFAR-10 dataset, our method, starting from scratch, can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy. Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent better and 1.05x faster than the previous state-of-the-art model that used a similar architectural scheme. On the Penn Treebank dataset, our model can compose a novel recurrent cell that outperforms the widely-used LSTM cell, and other state-of-the-art baselines. Our cell achieves a test set perplexity of 62.4 on the Penn Treebank, which is 3.6 perplexity better than the previous state-of-the-art model. The cell can also be transferred to the character language modeling task on PTB and achieves a state-of-the-art perplexity of 1.214.},
+archivePrefix = {arXiv},
+arxivId = {1611.01578},
+author = {Zoph, Barret and Le, Quoc V.},
+booktitle = {5th International Conference on Learning Representations, ICLR 2017 - Conference Track Proceedings},
+eprint = {1611.01578},
+title = {{Neural architecture search with reinforcement learning}},
+year = {2017}
+}
+
+@inproceedings{Zoph2018,
+abstract = {Developing neural network image classification models often requires significant architecture engineering. In this paper, we study a method to learn the model architectures directly on the dataset of interest. As this approach is expensive when the dataset is large, we propose to search for an architectural building block on a small dataset and then transfer the block to a larger dataset. The key contribution of this work is the design of a new search space (which we call the 'NASNet search space') which enables transferability. In our experiments, we search for the best convolutional layer (or 'cell') on the CIFAR-10 dataset and then apply this cell to the ImageNet dataset by stacking together more copies of this cell, each with their own parameters to design a convolutional architecture, which we name a 'NASNet architecture'. We also introduce a new regularization technique called ScheduledDropPath that significantly improves generalization in the NASNet models. On CIFAR-10 itself, a NASNet found by our method achieves 2.4{\%} error rate, which is state-of-the-art. Although the cell is not searched for directly on ImageNet, a NASNet constructed from the best cell achieves, among the published works, state-of-the-art accuracy of 82.7{\%} top-1 and 96.2{\%} top-5 on ImageNet. Our model is 1.2{\%} better in top-1 accuracy than the best human-invented architectures while having 9 billion fewer FLOPS - a reduction of 28{\%} in computational demand from the previous state-of-the-art model. When evaluated at different levels of computational cost, accuracies of NASNets exceed those of the state-of-the-art human-designed models. For instance, a small version of NASNet also achieves 74{\%} top-1 accuracy, which is 3.1{\%} better than equivalently-sized, state-of-the-art models for mobile platforms. Finally, the image features learned from image classification are generically useful and can be transferred to other computer vision problems. On the task of object detection, the learned features by NASNet used with the Faster-RCNN framework surpass state-of-the-art by 4.0{\%} achieving 43.1{\%} mAP on the COCO dataset.},
+archivePrefix = {arXiv},
+arxivId = {1707.07012},
+author = {Zoph, Barret and Vasudevan, Vijay and Shlens, Jonathon and Le, Quoc V.},
+booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+doi = {10.1109/CVPR.2018.00907},
+eprint = {1707.07012},
+isbn = {9781538664209},
+issn = {10636919},
+title = {{Learning Transferable Architectures for Scalable Image Recognition}},
+year = {2018}
+}
+
+@misc{larsson2017fractalnet,
+      title={FractalNet: Ultra-Deep Neural Networks without Residuals}, 
+      author={Gustav Larsson and Michael Maire and Gregory Shakhnarovich},
+      year={2017},
+      eprint={1605.07648},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+
+@misc{Real2018,
+      title={Regularized Evolution for Image Classifier Architecture Search}, 
+      author={Esteban Real and Alok Aggarwal and Yanping Huang and Quoc V Le},
+      year={2019},
+      eprint={1802.01548},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
+}
+
+@misc{brock2017smash,
+      title={SMASH: One-Shot Model Architecture Search through HyperNetworks}, 
+      author={Andrew Brock and Theodore Lim and J. M. Ritchie and Nick Weston},
+      year={2017},
+      eprint={1708.05344},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{Liu2018,
+abstract = {This paper addresses the scalability challenge of architecture search by formulating the task in a differentiable manner. Unlike conventional approaches of applying evolution or reinforcement learning over a discrete and non-differentiable search space, our method is based on the continuous relaxation of the architecture representation, allowing efficient search of the architecture using gradient descent. Extensive experiments on CIFAR-10, ImageNet, Penn Treebank and WikiText-2 show that our algorithm excels in discovering high-performance convolutional architectures for image classification and recurrent architectures for language modeling, while being orders of magnitude faster than state-of-the-art non-differentiable techniques. Our implementation has been made publicly available to facilitate further research on efficient architecture search algorithms.},
+author = {Liu, Hanxiao and Simonyan, Karen and Yang, Yiming},
+booktitle = {arXiv},
+title = {{Darts: Differentiable architecture search}},
+year = {2018}
+}
+
+@inproceedings{Ha2017,
+abstract = {This work explores hypernetworks: an approach of using one network, also known as a hypernetwork, to generate the weights for another network. We apply hypernetworks to generate adaptive weights for recurrent networks. In this case, hypernetworks can be viewed as a relaxed form of weight-sharing across layers. In our implementation, hypernetworks are are trained jointly with the main network in an end-to-end fashion. Our main result is that hypernetworks can generate non-shared weights for LSTM and achieve state-of-the-art results on a variety of sequence modelling tasks including character-level language modelling, handwriting generation and neural machine translation, challenging the weight-sharing paradigm for recurrent networks.},
+author = {Ha, David and Dai, Andrew M. and Le, Quoc V.},
+booktitle = {5th International Conference on Learning Representations, ICLR 2017 - Conference Track Proceedings},
+title = {{Hyper networks}},
+year = {2017}
+}
+
+
+
+
+
+@article{Hochreiter1997,
+abstract = {Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient-based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O(1). Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.},
+author = {Hochreiter, Sepp and Schmidhuber, J{\"{u}}rgen},
+doi = {10.1162/neco.1997.9.8.1735},
+issn = {08997667},
+journal = {Neural Computation},
+pmid = {9377276},
+title = {{Long Short-Term Memory}},
+year = {1997}
+}
+
+
+@misc{hu2019squeezeandexcitation,
+      title={Squeeze-and-Excitation Networks}, 
+      author={Jie Hu and Li Shen and Samuel Albanie and Gang Sun and Enhua Wu},
+      year={2019},
+      eprint={1709.01507},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+
+@misc{ba2016layer,
+      title={Layer Normalization}, 
+      author={Jimmy Lei Ba and Jamie Ryan Kiros and Geoffrey E. Hinton},
+      year={2016},
+      eprint={1607.06450},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
+@inproceedings{Ioffe2015,
+abstract = {Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization, and in some cases eliminates the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.82{\%} top-5 test error, exceeding the accuracy of human raters.},
+archivePrefix = {arXiv},
+arxivId = {1502.03167},
+author = {Ioffe, Sergey and Szegedy, Christian},
+booktitle = {32nd International Conference on Machine Learning, ICML 2015},
+eprint = {1502.03167},
+isbn = {9781510810587},
+title = {{Batch normalization: Accelerating deep network training by reducing internal covariate shift}},
+year = {2015}
+}
+
+
+@article{Srivastava2014,
+abstract = {Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different "thinned" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves the performance of neural networks on supervised learning tasks in vision, speech recognition, document classification and computational biology, obtaining state-of-the-art results on many benchmark data sets. {\textcopyright} 2014 Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever and Ruslan Salakhutdinov.},
+author = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+issn = {15337928},
+journal = {Journal of Machine Learning Research},
+keywords = {Deep learning,Model combination,Neural networks,Regularization},
+title = {{Dropout: A simple way to prevent neural networks from overfitting}},
+year = {2014}
+}
+
+@inproceedings{He2016,
+abstract = {Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57{\%} error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28{\%} relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC {\&} COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.},
+archivePrefix = {arXiv},
+arxivId = {1512.03385},
+author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+doi = {10.1109/CVPR.2016.90},
+eprint = {1512.03385},
+isbn = {9781467388504},
+issn = {10636919},
+title = {{Deep residual learning for image recognition}},
+year = {2016}
+}
+
+
+@article{Stanley2002,
+abstract = {An important question in neuroevolution is how to gain an advantage from evolving neural network topologies along with weights. We present a method, NeuroEvolution of Augmenting Topologies (NEAT), which outperforms the best fixed-topology method on a challenging benchmark reinforcement learning task. We claim that the increased efficiency is due to (1) employing a principled method of crossover of different topologies, (2) protecting structural innovation using speciation, and (3) incrementally growing from minimal structure. We test this claim through a series of ablation studies that demonstrate that each component is necessary to the system as a whole and to each other. What results is significantly faster learning. NEAT is also an important contribution to GAs because it shows how it is possible for evolution to both optimize and complexify solutions simultaneously, offering the possibility of evolving increasingly complex solutions over generations, and strengthening the analogy with biological evolution.},
+author = {Stanley, Kenneth O. and Miikkulainen, Risto},
+doi = {10.1162/106365602320169811},
+issn = {10636560},
+journal = {Evolutionary Computation},
+keywords = {Competing conventions,Genetic algorithms,Network topologies,Neural networks,Neuroevolution,Speciation},
+pmid = {12180173},
+title = {{Evolving neural networks through augmenting topologies}},
+year = {2002}
+}
+
+
+@inproceedings{MillerG.F.;ToddP.M.;Hegde1989,
+abstract = {Combining neural network with evolutionary algorithms leads to evolutionary artificial neural network. Evolutionary algorithms like GA to train neural nets choose their structure or design related aspects like the functions of their neurons. Along basic concepts of neural networks and genetic algorithm this paper includes a flexible method for solving travelling salesman problem using genetic algorithm. This offers a solution which includes a genetic algorithm implementation in order to give a maximal approximation of the problem with the reduction of cost. (D. Whitley, 1995) in " Genetic Algorithms and Neural Networks " has described that how the genetic algorithm can make a positive and competitive contribution in the neural network area. Also describes the different ways in which genetic algorithms have been used in conjunction with neural networks. (Montana and L. Davis, 1989) in " Training feedforward neural networks using genetic algorithms " has explained that multilayered feedforward neural networks posses a number of properties which make them particularly suited to complex pattern classification problem. Along with they also explained the concept of genetics and neural networks. (D. Arjona, 1996) in " Hybrid artificial neural network/genetic algorithm approach to on-line switching operations for the optimization of electrical power systems " had intended to present an approach to decision making in the operation of electric power systems that will use a simple genetic algorithm as a teacher for the process of supervised learning of a feedforward, backpropogation artificial neural networks. (Phogat, 2012) in " Travelling Salesman Problem using Genetic Algorithm " had included a flexible method for solving the travelling salesman problem using genetic algorithm. In this problem TSP is used as a domain.TSP has long been known to be NP-complete and standard example of such problems. This paper offers a solution which includes a genetic algorithm implementation in order to give a maximal approximation of the problem with the reduction of cost. In genetic, crossover is a main operator for TSP. The algorithm crossover is as work proposed here intends to compare the efficiency of the new crossover operator with some existing crossover operators.},
+author = {{Miller, G.F.; Todd, P.M.; Hegde}, S.U.},
+booktitle = {Proceedings of the 3rd International Conference on Genetic Algorithms, George Mason University, Fairfax, Virginia, USA.},
+title = {{Designing Neural Networks using Genetic Algorithms}},
+year = {1989}
+}
+
+
+@inproceedings{Pham2018,
+abstract = {We propose Efficient Neural Architecture Search (ENAS), a fast and inexpensive approach for automatic model design. ENAS constructs a large computational graph, where each subgraph represents a neural network architecture, hence forcing all architectures to share their parameters. A controller is trained with policy gradient to search for a subgraph that maximizes the expected reward on a validation set. Meanwhile a model corresponding to the selected subgraph is trained to minimize a canonical cross entropy loss. Sharing parameters among child models allows ENAS to deliver strong empirical performances, whilst using much fewer GPU-hours than existing automatic model design approaches, and notably, 1000x less expensive than standard Neural Architecture Search. On Penn Treebank, ENAS discovers a novel architecture that achieves a test perplexity of 56.3, on par with the existing state-of-the-art among all methods without post-training processing. On CIFAR-10, ENAS finds a novel architecture that achieves 2.89{\%} test error, which is on par with the 2.65{\%} test error of NASNet (Zoph et al., 2018).},
+archivePrefix = {arXiv},
+arxivId = {1802.03268},
+author = {Pham, Hieu and Guan, Melody Y. and Zoph, Barret and Le, Quoc V. and Dean, Jeff},
+booktitle = {35th International Conference on Machine Learning, ICML 2018},
+eprint = {1802.03268},
+isbn = {9781510867963},
+title = {{Efficient Neural Architecture Search via parameter Sharing}},
+year = {2018}
+}
+
+@inproceedings{Zhong2018,
+abstract = {Convolutional neural networks have gained a remarkable success in computer vision. However, most usable network architectures are hand-crafted and usually require expertise and elaborate design. In this paper, we provide a block-wise network generation pipeline called BlockQNN which automatically builds high-performance networks using the Q-Learning paradigm with epsilon-greedy exploration strategy. The optimal network block is constructed by the learning agent which is trained sequentially to choose component layers. We stack the block to construct the whole auto-generated network. To accelerate the generation process, we also propose a distributed asynchronous framework and an early stop strategy. The block-wise generation brings unique advantages: (1) it performs competitive results in comparison to the hand-crafted state-of-the-art networks on image classification, additionally, the best network generated by BlockQNN achieves 3.54{\%} top-1 error rate on CIFAR-10 which beats all existing auto-generate networks. (2) in the meanwhile, it offers tremendous reduction of the search space in designing networks which only spends 3 days with 32 GPUs, and (3) moreover, it has strong generalizability that the network built on CIFAR also performs well on a larger-scale ImageNet dataset.},
+archivePrefix = {arXiv},
+arxivId = {1708.05552},
+author = {Zhong, Zhao and Yan, Junjie and Wu, Wei and Shao, Jing and Liu, Cheng Lin},
+booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+doi = {10.1109/CVPR.2018.00257},
+eprint = {1708.05552},
+isbn = {9781538664209},
+issn = {10636919},
+title = {{Practical Block-Wise Neural Network Architecture Generation}},
+year = {2018}
+}
+
+
+@inproceedings{Baker2017,
+abstract = {At present, designing convolutional neural network (CNN) architectures requires both human expertise and labor. New architectures are handcrafted by careful experimentation or modified from a handful of existing networks. We introduce MetaQNN, a meta-modeling algorithm based on reinforcement learning to automatically generate high-performing CNN architectures for a given learning task. The learning agent is trained to sequentially choose CNN layers using Qlearning with an -greedy exploration strategy and experience replay. The agent explores a large but finite space of possible architectures and iteratively discovers designs with improved performance on the learning task. On image classification benchmarks, the agent-designed networks (consisting of only standard convolution, pooling, and fully-connected layers) beat existing networks designed with the same layer types and are competitive against the state-of-the-art methods that use more complex layer types. We also outperform existing meta-modeling approaches for network design on image classification tasks.},
+archivePrefix = {arXiv},
+arxivId = {1611.02167},
+author = {Baker, Bowen and Gupta, Otkrist and Naik, Nikhil and Raskar, Ramesh},
+booktitle = {5th International Conference on Learning Representations, ICLR 2017 - Conference Track Proceedings},
+eprint = {1611.02167},
+title = {{Designing neural network architectures using reinforcement learning}},
+year = {2017}
+}
+
+
+@misc{Floreano2008,
+abstract = {Artificial neural networks (ANNs) are applied to many real-world problems, ranging from pattern classification to robot control. In order to design a neural network for a particular task, the choice of an architecture (including the choice of a neuron model), and the choice of a learning algorithm have to be addressed. Evolutionary search methods can provide an automatic solution to these problems. New insights in both neuroscience and evolutionary biology have led to the development of increasingly powerful neuroevolution techniques over the last decade. This paper gives an overview of the most prominent methods for evolving ANNs with a special focus on recent advances in the synthesis of learning architectures. {\textcopyright} Springer-Verlag 2008.},
+author = {Floreano, Dario and D{\"{u}}rr, Peter and Mattiussi, Claudio},
+booktitle = {Evolutionary Intelligence},
+doi = {10.1007/s12065-007-0002-4},
+issn = {18645909},
+keywords = {Evolution,Learning,Neural networks},
+title = {{Neuroevolution: From architectures to learning}},
+year = {2008}
+}
+
+
+@inproceedings{Suganuma2018,
+abstract = {We propose a method for designing convolutional neural network (CNN) architectures based on Cartesian genetic programming (CGP). In the proposed method, the architectures of CNNs are represented by directed acyclic graphs, in which each node represents highly-functional modules such as convolutional blocks and tensor operations, and each edge represents the connectivity of layers. The architecture is optimized to maximize the classification accuracy for a validation dataset by an evolutionary algorithm. We show that the proposed method can find competitive CNN architectures compared with state-of-the-art methods on the image classification task using CIFAR-10 and CIFAR-100 datasets.},
+archivePrefix = {arXiv},
+arxivId = {1704.00764},
+author = {Suganuma, Masanori and Shirakawa, Shinichi and Nagao, Tomoharu},
+booktitle = {IJCAI International Joint Conference on Artificial Intelligence},
+doi = {10.24963/ijcai.2018/755},
+eprint = {1704.00764},
+isbn = {9780999241127},
+issn = {10450823},
+title = {{A genetic programming approach to designing convolutional neural network architectures}},
+year = {2018}
+}
+
+
+@inproceedings{Wierstra2005,
+abstract = {Existing Recurrent Neural Networks (RNNs) are limited in their ability to model dynamical systems with nonlinearities and hidden internal states. Here we use our general framework for sequence learning, EVOlution of recurrent systems with LINear Outputs (Evolino), to discover good RNN hidden node weights through evolution, while using linear regression to compute an optimal linear mapping from hidden state to output. Using the Long Short-Term Memory RNN Architecture, Evolino outperforms previous state-of-the-art methods on several tasks: 1) context-sensitive languages, 2) multiple superimposed sine waves. Copyright 2005 ACM.},
+author = {Wierstra, Daan and Gomez, Faustino J. and Schmidhuber, J{\"{u}}rgen},
+booktitle = {GECCO 2005 - Genetic and Evolutionary Computation Conference},
+doi = {10.1145/1068009.1068315},
+isbn = {1595930108},
+keywords = {Evolution and Learning,Recurrent Neural Networks,Time-series prediction},
+title = {{Modeling systems with internal state using evolino}},
+year = {2005}
+}
+
+
+@article{Bergstra2012,
+abstract = {Grid search and manual search are the most widely used strategies for hyper-parameter optimization. This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid. Empirical evidence comes from a comparison with a large previous study that used grid search and manual search to configure neural networks and deep belief networks. Compared with neural networks configured by a pure grid search, we find that random search over the same domain is able to find models that are as good or better within a small fraction of the computation time. Granting random search the same computational budget, random search finds better models by effectively searching a larger, less promising configuration space. Compared with deep belief networks configured by a thoughtful combination of manual search and grid search, purely random search over the same 32-dimensional configuration space found statistically equal performance on four of seven data sets, and superior performance on one of seven. A Gaussian process analysis of the function from hyper-parameters to validation set performance reveals that for most data sets only a few of the hyper-parameters really matter, but that different hyper-parameters are important on different data sets. This phenomenon makes grid search a poor choice for configuring algorithms for new data sets. Our analysis casts some light on why recent "High Throughput" methods achieve surprising success-they appear to search through a large number of hyper-parameters because most hyper-parameters do not matter much. We anticipate that growing interest in large hierarchical models will place an increasing burden on techniques for hyper-parameter optimization; this work shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper-parameter optimization algorithms. {\textcopyright} 2012 James Bergstra and Yoshua Bengio.},
+author = {Bergstra, James and Bengio, Yoshua},
+issn = {15324435},
+journal = {Journal of Machine Learning Research},
+keywords = {Deep learning,Global optimization,Model selection,Neural networks,Response surface modeling},
+title = {{Random search for hyper-parameter optimization}},
+year = {2012}
+}
+
+@misc{Negrinho2017,
+abstract = {In deep learning, performance is strongly affected by the choice of architecture and hyperparameters. While there has been extensive work on automatic hyperparameter optimization for simple spaces, complex spaces such as the space of deep architectures remain largely unexplored. As a result, the choice of architecture is done manually by the human expert through a slow trial and error process guided mainly by intuition. In this paper we describe a framework for automatically designing and training deep models. We propose an extensible and modular language that allows the human expert to compactly represent complex search spaces over architectures and their hyperparameters. The resulting search spaces are tree-structured and therefore easy to traverse. Models can be automatically compiled to computational graphs once values for all hyperparameters have been chosen. We can leverage the structure of the search space to introduce different model search algorithms, such as random search, Monte Carlo tree search (MCTS), and sequential model-based optimization (SMBO). We present experiments comparing the different algorithms on CIFAR-10 and show that MCTS and SMBO outperform random search. In addition, these experiments show that our framework can be used effectively for model discovery, as it is possible to describe expressive search spaces and discover competitive models without much effort from the human expert. Code for our framework and experiments has been made publicly available.},
+archivePrefix = {arXiv},
+arxivId = {1704.08792},
+author = {Negrinho, Renato and Gordon, Geoff},
+booktitle = {arXiv},
+eprint = {1704.08792},
+title = {{Deeparchitect: Automatically designing and training deep architectures}},
+year = {2017}
+}
+
+@inproceedings{Snoek2012,
+abstract = {The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters. Unfortunately, this tuning is often a "black art" requiring expert experience, rules of thumb, or sometimes bruteforce search. There is therefore great appeal for automatic approaches that can optimize the performance of any given learning algorithm to the problem at hand. In this work, we consider this problem through the framework of Bayesian optimization, in which a learning algorithm's generalization performance is modeled as a sample from a Gaussian process (GP). We show that certain choices for the nature of the GP, such as the type of kernel and the treatment of its hyperparameters, can play a crucial role in obtaining a good optimizer that can achieve expertlevel performance. We describe new algorithms that take into account the variable cost (duration) of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation. We show that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms including latent Dirichlet allocation, structured SVMs and convolutional neural networks.},
+archivePrefix = {arXiv},
+arxivId = {1206.2944},
+author = {Snoek, Jasper and Larochelle, Hugo and Adams, Ryan P.},
+booktitle = {Advances in Neural Information Processing Systems},
+eprint = {1206.2944},
+isbn = {9781627480031},
+issn = {10495258},
+title = {{Practical Bayesian optimization of machine learning algorithms}},
+year = {2012}
+}
+
+@inproceedings{Kandasamy2018,
+abstract = {Bayesian Optimisation (BO) refers to a class of methods for global optimisation of a function f which is only accessible via point evaluations. It is typically used in settings where f is expensive to evaluate. A common use case for BO in machine learning is model selection, where it is not possible to analytically model the generalisation performance of a statistical model, and we resort to noisy and expensive training and validation procedures to choose the best model. Conventional BO methods have focused on Euclidean and categorical domains, which, in the context of model selection, only permits tuning scalar hyper-parameters of machine learning algorithms. However, with the surge of interest in deep learning, there is an increasing demand to tune neural network architectures. In this work, we develop NASBOT, a Gaussian process based BO framework for neural architecture search. To accomplish this, we develop a distance metric in the space of neural network architectures which can be computed efficiently via an optimal transport program. This distance might be of independent interest to the deep learning community as it may find applications outside of BO. We demonstrate that NASBOT outperforms other alternatives for architecture search in several cross validation based model selection tasks on multi-layer perceptrons and convolutional neural networks.},
+archivePrefix = {arXiv},
+arxivId = {1802.07191},
+author = {Kandasamy, Kirthevasan and Neiswanger, Willie and Schneider, Jeff and P{\'{o}}czos, Barnab{\'{a}}s and Xing, Eric P.},
+booktitle = {Advances in Neural Information Processing Systems},
+eprint = {1802.07191},
+issn = {10495258},
+title = {{Neural architecture search with Bayesian optimisation and optimal transport}},
+year = {2018}
+}
+
+@inproceedings{xu2015new,
+  title={A new image data set and benchmark for cervical dysplasia classification evaluation},
+  author={Xu, Tao and Xin, Cheng and Long, L Rodney and Antani, Sameer and Xue, Zhiyun and Kim, Edward and Huang, Xiaolei},
+  booktitle={International Workshop on Machine Learning in Medical Imaging},
+  pages={26--35},
+  year={2015},
+  organization={Springer}
+}

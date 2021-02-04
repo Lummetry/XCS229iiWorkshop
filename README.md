@@ -13,3 +13,4 @@ _The following content is made available under GNU General Public License ("GPL"
  - 2020-10-20 - Published (Open Source v3 license) the initial commit of the repo
  - 2020-10-20 - Added "gated.py" - the simple gated unit is the first primitive that we will use in our final project that develops and applies in real use-cases our own state-of-the-art research called "Multi Gated Unit"
  - 2020-11-19 - RL (policy gradient in tensorflow) Cartpole-v0 experiment
+ - 2020-12-20 - Added all the MGU work
